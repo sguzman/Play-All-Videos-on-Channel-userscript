@@ -188,7 +188,7 @@
 
         // Insert a <yt-attributed-string> child with our text
         // (remove any existing children first, just in case)
-        formattedString.innerHTML = 'Play All';
+        formattedString.textContent = 'Play All';
         formattedString.style.color = 'red';
         formattedString.style.fontWeight = 'bolder';
         const attrString = document.createElement('yt-attributed-string');
